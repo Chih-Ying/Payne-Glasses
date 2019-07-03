@@ -67,7 +67,7 @@ a {
   }
   .btn.btn-women:hover {
     background: transparent;
-    color: #212529; }
+    color: #ff9901; }
   .btn.btn-men {
     color: white;
     background-color: #404040;
@@ -525,47 +525,72 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  flex: 1;
+  /* background-image: url('../images/cover.png'); */
+  background-color: #25262a;
   position: relative; }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
-    min-height: 469px;
+    min-height: 480px;
    /*  height: calc(100vh);  */
   }
   .site-blocks-cover.inner-page, .site-blocks-cover.inner-page .row {
     min-height: 400px;
     height: 700px; }
+  .site-blocks-cover .cover-title {
+    max-width: 100%;
+    margin-top: 15px;
+    background-color:rgba(0, 0, 0, 0.4);}
+    @media (min-width: 768px) {
+      .site-blocks-cover .cover-title {
+        width: 60%;
+        margin-top: 25px;
+        font-size: 35px; } }
   .site-blocks-cover h2 {
-    font-size: 14px;
+    margin-top: -10px;
+    font-size: 25px;
     font-weight: normal;
     color: #000;
-    letter-spacing: .2em;
+    /* letter-spacing: .2em; */
     text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .site-blocks-cover h2 {
+        font-size: 35px; } }
   @media (max-width: 991.98px) {
     .site-blocks-cover .featured-hero-product {
       margin-top: 10%;
       position: absolute; } }
   .site-blocks-cover h1 {
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 500;
     color: #fff;
-    margin-bottom: 30px;
+    margin: 15px;
     text-transform: uppercase; }
     @media (min-width: 768px) {
       .site-blocks-cover h1 {
-        font-size: 70px; } }
+        font-size: 60px; } }
   .site-blocks-cover p {
     color: #fff;
     font-size: 20px;
-    line-height: 35px; }
+    margin-bottom: 0px;
+    line-height: 45px;
+    background-color:rgba(0, 0, 0, 0.4); }
+    @media (min-width: 768px) {
+      .site-blocks-cover p {
+        font-size: 29px; } }
   .site-blocks-cover .intro-text {
     font-size: 16px;
     color: #fff;
     line-height: 1.5; }
-  .site-blocks-cover.inner-page .site-block-cover-content {
-    margin-top: 20%;
-    text-align: center; }
-    @media (min-width: 768px) {
+  .site-blocks-cover .site-block-cover-content {
+    height: 90%;
+    /* margin-top: 20%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+/*     @media (min-width: 768px) {
       .site-blocks-cover.inner-page .site-block-cover-content {
-        margin-top: 30%; } }
+        margin-top: 30%; } } */
   .site-blocks-cover .sub-title {
     color: #fff; }
   @media (max-width: 991.98px) {
@@ -575,6 +600,9 @@ a {
       margin-right: auto; } }
   .site-blocks-cover .btn {
     padding: 20px 30px; }
+  .site-blocks-cover .buttons-div {
+    margin-top: 30%;
+  }
 
 .site-blocks-1 {
   border-bottom: 1px solid #edf0f5; }
