@@ -100,7 +100,11 @@ a {
       padding: 5em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
-
+.site-section .bg-banner {
+  background: #D8D8D8;
+  color: black;
+  box-shadow: 7px 10px 6px rgb(129, 129, 129);
+}
 .site-section-heading {
   font-size: 30px;
   color: #25262a;
@@ -526,7 +530,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   flex: 1;
-  /* background-image: url('../images/cover.png'); */
+  background-image: url('../images/cover.png');
   background-color: #25262a;
   position: relative; }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
@@ -1116,24 +1120,65 @@ a {
   transform: rotate(-90deg) translateX(-100%) translateY(-70%); }
 
 .banner-wrap {
-  background: #74d12b;
-  border-radius: 4px; }
+  background: white;
+  border-radius: 2px;
+  padding: 25px; }
   .banner-wrap a {
-    padding: 30px;
     display: block;
     text-align: center; }
-    .banner-wrap a h5 {
-      font-size: 2rem;
-      font-style: italic;
+    .banner-wrap a h2 {
+      font-size: 1.8rem;
       margin-bottom: 10px; }
-    .banner-wrap a h5, .banner-wrap a p {
-      color: #fff; }
+      @media (min-width: 768px) {
+        .banner-wrap a h2 {
+          font-size: 2.2rem; } }
+    .banner-wrap a h2, .banner-wrap a p {
+      color: black; }
     .banner-wrap a p {
-      color: #fff;
-      font-size: 1.4rem; }
+      color: black;
+      font-size: 0.9rem; 
+      font-weight: 100;
+      margin-bottom: 0rem; }
+      @media (min-width: 768px) {
+        .banner-wrap a p {
+          font-size: 1.4rem; } }
       .banner-wrap a p strong {
         font-size: .9rem;
         display: block; }
+
+.sub-banner-wrap {
+  display: block;}
+  @media (min-width: 768px) {
+    .sub-banner-wrap {
+      display: flex;
+      justify-content: space-around; } }
+  .sub-banner-wrap-left {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 20px;
+    border: 2px solid  rgba(0, 0, 0, 0.4);}
+    @media (min-width: 768px) {
+      .sub-banner-wrap-left {
+        width: 45%;
+        margin-left:  1.5rem} }
+  .sub-banner-wrap-right {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 20px;
+    border: 2px solid  rgba(0, 0, 0, 0.4);}
+    @media (min-width: 768px) {
+      .sub-banner-wrap-right {
+        width: 45%;
+        margin-right:  1.5rem } }
+    .sub-banner-wrap h3 {
+      color: #000;
+      font-size: 1.6rem;
+      margin-bottom: 10px; }
+      @media (min-width: 768px) {
+        .banner-wrap a h2 {
+          font-size: 2rem; } }
 
 .banner-1 {
   background-size: cover;
@@ -1157,9 +1202,9 @@ a {
   .banner-1 .banner-1-inner {
     width: 50%; }
     .banner-1 .banner-1-inner h2 {
-      color: #000;
-      text-transform: uppercase;
-      font-weight: 900; }
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: #000; }
     .banner-1 .banner-1-inner p {
       color: rgba(0, 0, 0, 0.5);
       font-size: 1.2rem; }
@@ -1181,14 +1226,18 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(81, 234, 234, 0.9);
+    background: rgba(255, 153, 1, 0.8);
     z-index: 1; }
   .bg-image > .container {
     position: relative;
     z-index: 2; }
 
 .section-overlap {
-  margin-top: -150px; }
+  margin-top: -70px; }
+  @media (min-width: 768px) {
+    .section-overlap {
+      margin-top: -110px; }
+  }
 
 .custom-pill .nav-item {
   margin-right: 4px; }
