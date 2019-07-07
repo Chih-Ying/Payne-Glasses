@@ -11,10 +11,11 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'Glyphicons Halflings' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
+  font-size: 47px;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -2518,7 +2519,7 @@
   content: "\e149";
 }
 .icon-arrow_back:before {
-  content: "\e5c4";
+  content: "\e257";
 }
 .icon-arrow_downward:before {
   content: "\e5db";
@@ -2533,7 +2534,7 @@
   content: "\e5c7";
 }
 .icon-arrow_forward:before {
-  content: "\e5c8";
+  content: "\e258";
 }
 .icon-arrow_upward:before {
   content: "\e5d8";
