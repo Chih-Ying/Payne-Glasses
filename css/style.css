@@ -540,7 +540,6 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   flex: 1;
-  /* background-image: url('../images/cover.png'); */
   background-color: #25262a;
   position: relative; }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
@@ -1276,3 +1275,88 @@ a {
 
 .custom-table td {
   color: #000; }
+
+
+/* Banner */
+
+.site-blocks-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex: 1;
+  background-color: #02caf0;
+  position: relative; }
+  .site-blocks-banner, .site-blocks-banner > .container > .row {
+    min-height: 480px;
+   /*  height: calc(100vh);  */
+  }
+  .site-blocks-banner.inner-page, .site-blocks-banner.inner-page .row {
+    min-height: 400px;
+    height: 700px; }
+  .site-blocks-banner .cover-title {
+    max-width: 100%;
+    margin-top: 15px;
+    /* background-color:rgba(0, 0, 0, 0.4); */
+  } 
+    @media (min-width: 768px) {
+      .site-blocks-banner .cover-title {
+        width: 60%;
+        margin-top: 25px;
+        font-size: 35px; } }
+  .site-blocks-banner h2 {
+    margin-top: -10px;
+    font-size: 23px;
+    padding: 10px;
+    font-weight: normal;
+    color:black; }
+    @media (min-width: 768px) {
+      .site-blocks-banner h2 {
+        font-size: 29px; } }
+  @media (max-width: 991.98px) {
+    .site-blocks-banner .featured-hero-product {
+      margin-top: 10%;
+      position: absolute; } }
+  .site-blocks-banner h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: black;
+    margin: 15px; }
+    @media (min-width: 768px) {
+      .site-blocks-banner h1 {
+        font-size: 5rem; } }
+  .site-blocks-banner p {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.4); }
+    @media (min-width: 768px) {
+      .site-blocks-banner p {
+        font-size: 22px; } }
+  .site-blocks-banner .intro-text {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5; }
+  .site-blocks-banner .site-block-cover-content {
+    height: 90%;
+    /* margin-top: 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+/*     @media (min-width: 768px) {
+      .site-blocks-cover.inner-page .site-block-cover-content {
+        margin-top: 30%; } } */
+  .site-blocks-banner .cover-subtitle {
+    text-align: center; }
+  @media (max-width: 991.98px) {
+    .site-blocks-banner .img-1 {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto; } }
+  .site-blocks-banner .btn {
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+  .site-blocks-banner .buttons-div {
+    margin-top: 30%;
+  }
