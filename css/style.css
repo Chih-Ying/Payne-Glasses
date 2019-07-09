@@ -145,8 +145,8 @@ a {
   border-top: 1px solid #edf0f5 !important; }
 
 .site-footer {
-  padding: 6em 0; }
-  .site-footer ul li {
+  padding-top: 6em; }
+/*   .site-footer ul li {
     margin-bottom: 10px; }
     .site-footer ul li a {
       color: #5c626e; }
@@ -155,7 +155,7 @@ a {
   .site-footer .footer-heading {
     font-size: 1.2rem;
     color: #000;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem; } */
 
 /* Navbar */
 .site-logo a {
