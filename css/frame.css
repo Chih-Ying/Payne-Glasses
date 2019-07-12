@@ -42,7 +42,7 @@ height:0.60rem;
     width: 30%;
    border-bottom: 3px solid #777;
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width:1196px) {
     .title_underline {
         width: 60%;
     }

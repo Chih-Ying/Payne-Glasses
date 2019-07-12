@@ -1366,6 +1366,11 @@ a {
     padding-top: 15px;
     padding-bottom: 15px; 
   }
+  @media screen and (max-width: 414px) {
+    .material_content_wrap {
+      padding-top: 0px;
+    }
+  }
 
   .material_content {
     height: 300px;
@@ -1397,7 +1402,9 @@ a {
     height: 100%;
     width: 100%;
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex: 1;
   }
 
   .material_content h2 {
@@ -1434,3 +1441,134 @@ a {
       line-height: normal;
   }
 
+  /* Shop by Description */
+.prescription_content {
+  height: auto;
+}
+
+.prescription_content .wrapper_0 {
+    display: inline-block;
+    height: 250px;
+    padding: 5px;
+}
+
+.background_right_center {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex: 1;
+}
+
+.background_left_center {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  flex: 1;
+}
+
+.prescription_content .wrapper_0 img{
+    height: 100%;
+    width: 100%;
+}
+
+.prescription_content .wrapper_1 {
+  display: inline-block;
+  min-height: 315px;
+  padding: 5px;
+}
+
+
+.prescription_content .wrapper_1 h2{
+  color: #000;
+  font-size: 27px;
+  /* margin: 10px 15px 10px 15%; */
+  padding: 10px;
+}
+
+.prescription_content .wrapper_1 h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+/*   line-height: inherit; */
+  padding: 10px;
+}
+
+.prescription_content .wrapper_1 h4{
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;/* 
+  line-height: inherit; */
+  /* margin-left: 15%; */
+  padding: 10px;
+}
+
+.prescription_content .wrapper_1 img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.prescription_content .wrapper_1 .vedio{
+  height: 100%;
+  width: 100%;
+}
+
+.prescription_content .wrapper_2 {
+  padding: 5px;
+}
+
+.prescription_content .wrapper_2 .wrapper_2_up {
+  background-color: #f68d56;
+  color: white;
+  text-align: center;
+  padding: 20px 20px 5px 20px;
+}
+
+.prescription_content .wrapper_2 .wrapper_2_down {
+  background-color: #f68d56;
+  color: white;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.prescription_content .wrapper_2 .wrapper_2_down p {
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 22px;
+}
+
+.dir_icon {
+  color: white;
+  font-size: xx-large;
+  padding: 10px 0px;
+}
+
+.right_top_radius {
+  border-radius: 20px 0px 0px 0px;
+}
+.right_bottom_radius {
+  border-radius: 0px 0px 0px 20px;
+}
+.left_top_radius {
+  border-radius: 0px 20px 0px 0px;
+}
+.left_bottom_radius {
+  border-radius: 0px 0px 20px 0px;
+}
+
+.prescription_content .wrapper_2 h2{
+  font-size: 27px;
+  /* margin: 10px 15px 10px 15%; */
+  padding: 0px 25px;
+}
+
+.prescription_content .wrapper_2 h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+/*   line-height: inherit; */
+  padding: 10px;
+}
