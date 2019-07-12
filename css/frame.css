@@ -38,6 +38,16 @@ height:0.60rem;
     /* font-family: LatoRegular; */
 }
 
+.title_underline {
+    width: 30%;
+   border-bottom: 3px solid #777;
+}
+@media screen and (max-width:991px) {
+    .title_underline {
+        width: 60%;
+    }
+}
+
 .pg_PLP_sbtitle {
     width: 80%;
     margin: 0 auto;
@@ -49,6 +59,8 @@ height:0.60rem;
     color: #101010;
     /* font-family: LatoRegular; */
 }
+
+
 
 .pg_PLP_carousel {
     width: 100%;
