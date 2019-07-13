@@ -1258,7 +1258,7 @@ a {
 .testimony blockquote p {
   color: #000;
   font-family: "Crimson Text", serif;
-  font-size: 1.5rem;
+  font-size: 20px;
   line-height: 1.5;
   font-style: italic; }
 
@@ -1283,6 +1283,13 @@ a {
   @media (min-width: 768px) {
     .section-overlap {
       margin-top: -110px; }
+  }
+
+.section-overlap-small {
+  margin-top: -30px; }
+  @media (min-width: 415px) {
+    .section-overlap-small {
+      margin-top: -80px; }
   }
 
 .custom-pill .nav-item {
@@ -1333,7 +1340,8 @@ a {
     color:black; }
     @media (min-width: 768px) {
       .site-blocks-banner h2 {
-        font-size: 29px; } }
+        font-size: 29px;
+        line-height: inherit; } }
   @media (max-width: 991.98px) {
     .site-blocks-banner .featured-hero-product {
       margin-top: 10%;
@@ -1667,3 +1675,52 @@ a {
   font-size: 26px;
   font-weight: 600;
 }
+
+/* Protect Your Eyesight */
+.protect_content_wrap {
+  text-align: center;
+}
+
+.protect_content {
+  color: #000;
+  background-color: #cdd8db;
+  border-radius: 20px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 5px;
+  text-align: center;
+  overflow: hidden; 
+  margin-bottom: 20px; }
+  .protect_content .middle{
+    width: 105%;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    height: 105%;
+    background-color: #f8f9fa;
+    min-height: 180px;
+  }
+  .protect_content h2{
+    font-size: 29px;
+    padding: 15px 0px;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+
+  .protect_content p{
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+
+  .protect_button {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    border: 2px solid black; 
+    height: 70px;
+    width: 230px;
+    margin: auto;
+  }
+  
+  .protect_button p{
+    padding: 15px 0px;
+    font-size: 22px;
+  }
