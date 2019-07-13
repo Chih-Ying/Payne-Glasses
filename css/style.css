@@ -565,7 +565,8 @@ a {
     font-weight: normal;
     color: #000;
     /* letter-spacing: .2em; */
-    text-transform: uppercase; }
+    /* text-transform: uppercase;  */
+  }
     @media (min-width: 768px) {
       .site-blocks-cover h2 {
         font-size: 29px; } }
@@ -1342,8 +1343,7 @@ a {
     color:black; }
     @media (min-width: 768px) {
       .site-blocks-banner h2 {
-        font-size: 29px;
-        line-height: inherit; } }
+        font-size: 29px; } }
   @media (max-width: 991.98px) {
     .site-blocks-banner .featured-hero-product {
       margin-top: 10%;
@@ -1457,6 +1457,7 @@ a {
     color: #ff9901;
     font-size: 24px;
     margin-bottom: 10px;
+    padding-top: 5px;
   }
 
   .highlight_point {
@@ -1767,6 +1768,13 @@ a {
 
 .banner_bottom_area {
   margin-top: 20%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.banner_bottom_area_closer {
+  margin-top: 8%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
