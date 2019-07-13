@@ -145,7 +145,7 @@ a {
   border-top: 1px solid #edf0f5 !important; }
 
 .site-footer {
-  padding-top: 6em; }
+  padding-top: 3em; }
 /*   .site-footer ul li {
     margin-bottom: 10px; }
     .site-footer ul li a {
@@ -1175,6 +1175,7 @@ a {
     @media (min-width: 768px) {
       .sub-banner-wrap-left {
         width: 50%;
+        padding: 10px;
         /* margin-left:  1.5rem */
       } }
 
@@ -1201,6 +1202,7 @@ a {
     @media (min-width: 768px) {
       .sub-banner-wrap-right {
         width: 49%;
+        padding: 10px;
         /* margin-right:  1.5rem  */
       } }
     .sub-banner-wrap h3 {
@@ -1316,7 +1318,7 @@ a {
   background-color: #02caf0;
   position: relative; }
   .site-blocks-banner, .site-blocks-banner > .container > .row {
-    min-height: 480px;
+   /*  min-height: 480px; */
    /*  height: calc(100vh);  */
   }
   .site-blocks-banner.inner-page, .site-blocks-banner.inner-page .row {
@@ -1346,22 +1348,23 @@ a {
     .site-blocks-banner .featured-hero-product {
       margin-top: 10%;
       position: absolute; } }
-  .site-blocks-banner h1 {
+  .site-blocks-banner .cover-title h1 {
     font-size: 3.5rem;
     font-weight: 500;
     color: black;
     margin: 15px; }
     @media (min-width: 768px) {
-      .site-blocks-banner h1 {
+      .site-blocks-banner .cover-title h1 {
         font-size: 5rem; } }
-  .site-blocks-banner p {
+  
+  .site-blocks-banner .cover-title p {
     color: black;
     font-size: 17px;
     margin-bottom: 0px;
     padding: 10px;
     background-color:rgba(0, 0, 0, 0.4); }
     @media (min-width: 768px) {
-      .site-blocks-banner p {
+      .site-blocks-banner .cover-title p {
         font-size: 22px; } }
   .site-blocks-banner .intro-text {
     font-size: 16px;
@@ -1724,3 +1727,61 @@ a {
     padding: 15px 0px;
     font-size: 22px;
   }
+
+  /* Also For Kids */
+
+  /* Helping people */
+.banner_title_bg {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  text-align: center;
+}
+
+.banner_title_bg h1 {
+  font-size: 45px;
+  color: white;
+  margin: 20px 15px 15px 15px;
+}
+
+.banner_title_bg p {
+  font-size: 20px;
+  color: white;
+  line-height: initial;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media screen and (max-width: 414px) {
+  .banner_title_bg h1 {
+    font-size: 29px; }
+  .banner_title_bg p {
+    font-size: 17px;
+    margin-left: 0%;
+    margin-right: 0%;}
+}
+
+.dir_icon_btn {
+  font-size: large;
+    padding: 10px 0px;
+}
+
+.banner_bottom_area {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.banner_bottom_area p {
+  color: white;
+  font-size: 17px;
+}
+
+.banner_bottom_area .btn-learn {
+  border-color: #ccc;
+  color: #ccc;
+}
+
+@media screen and (max-width: 414px) {
+  .banner_bottom_area p {
+    font-size: 22px;
+  }
+}
