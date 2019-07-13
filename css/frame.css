@@ -33,13 +33,13 @@ height:0.60rem;
    /*  border-bottom: 1px solid #777; */
     line-height: 60px;
     /* font-weight: 600; */
-    font-size: 29px;
+    font-size: 40px;
     color: #101010;
     /* font-family: LatoRegular; */
 }
 
 .title_underline {
-    width: 30%;
+    width: 40%;
    border-bottom: 3px solid #777;
 }
 @media screen and (max-width:1196px) {
