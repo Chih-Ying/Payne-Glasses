@@ -20,6 +20,7 @@ height:0.60rem;
 .pg_PLP {
     width: 100%;
     height: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 /* .pg_PLP_banner {
@@ -82,6 +83,7 @@ height:0.60rem;
     margin: 0;
     padding: 0;
     padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -93,7 +95,7 @@ height:0.60rem;
     border-bottom: 3px solid #ccc;
     text-align: center;
     line-height: 40px;
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
     font-weight: 500;
 }
@@ -109,6 +111,7 @@ height:0.60rem;
     margin: 0;
     padding: 0;
     padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .pg_plp_up_tab_middle_sun p,
@@ -119,7 +122,7 @@ height:0.60rem;
     border-bottom: 3px solid #ccc;
     text-align: center;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -180,7 +183,7 @@ _left {
     /*1.15rem;*/
     margin: 0 auto;
     margin-top: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     /* float: left; */
 } 
@@ -225,7 +228,8 @@ _left {
 @media screen and (min-width: 1200px) {
 .pg_choosepair_content {
     height: 370px;
-    overflow: hidden;}
+    overflow: hidden;
+    padding: 0px 15px; }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1199px) {
@@ -264,12 +268,18 @@ _left {
     padding: 20px 20px;
     font-size: 18px;
     color: black;
+    font-family: 'Lato', sans-serif;
+
 }
 
 
 .pg_img_box {
-    margin: 10px;
+   /*  margin: 10px; */
     background-color: white;
+    border: 1px solid darkgrey;
+}
+
+.pg_img_box:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -1126,7 +1136,7 @@ _left {
         line-height: 38px;
         color: #ffffff;
         transition: 0.5s;
-        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 }
 
@@ -1211,10 +1221,12 @@ _left {
     } */
 
     .pg_plp_up_tab_middle_sun {
+        font-family: 'Lato', sans-serif;
         width: 129px;
     }
 
     .pg_plp_up_tab_middle_sun p {
+        font-family: 'Lato', sans-serif;
         margin-left: 60px;
         margin-right: 5px;
     }
