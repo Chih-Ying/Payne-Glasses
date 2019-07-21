@@ -142,7 +142,7 @@ a {
     background: #ff9901; }
 
 .frame-border {
-  border: 1px solid #777;
+  border: 1px solid #ccc;
   height: 250px;
   border-radius: 5px; }
   @media (max-width: 1024px) {
@@ -222,6 +222,7 @@ a {
     position: relative; }
 
 .site-navbar {
+  font-family: 'Lato', sans-serif;
   margin-bottom: 0px;
   z-index: 1999;
   position: relative;
@@ -1288,7 +1289,8 @@ a {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 1.5;
-  font-style: italic; }
+  /* font-style: italic;  */
+}
 
 .bg-image {
   background-size: cover;
@@ -1400,7 +1402,8 @@ a {
     /* margin-top: 20%; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between; 
+    font-family: 'Lato', sans-serif; }
 /*     @media (min-width: 768px) {
       .site-blocks-cover.inner-page .site-block-cover-content {
         margin-top: 30%; } } */
@@ -1423,6 +1426,7 @@ a {
   .material_content_wrap {
     padding-top: 15px;
     padding-bottom: 15px; 
+    font-family: 'Lato', sans-serif;
   }
   @media screen and (max-width: 414px) {
     .material_content_wrap {
@@ -1441,8 +1445,9 @@ a {
     padding: 20px;
     background-color: white; 
     width: 49%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px 0px 0px 20px;
+    /* border-radius: 20px 0px 0px 20px; */
+    border-radius: 5px;
+    border: 1px solid #ccc;
   }
   @media screen and (max-width: 414px) {
     .material_content_left {
@@ -1450,11 +1455,20 @@ a {
     }
   }
 
+  .material_content_left:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   .material_content_right {
     background-color: white; 
     width: 49%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: 1px solid #ccc;
   } 
+
+  .material_content_right:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
   .material_content_right img {
     height: 100%;
@@ -1503,6 +1517,7 @@ a {
   /* Shop by Description */
 .prescription_content {
   height: auto;
+  font-family: 'Lato', sans-serif;
 }
 
 .prescription_content .wrapper_0 {
@@ -1528,6 +1543,7 @@ a {
 .prescription_content .wrapper_0 img{
     height: 100%;
     width: 100%;
+    border-radius: 5px;
 }
 
 .prescription_content .wrapper_1 {
@@ -1552,7 +1568,7 @@ a {
 }
 
 .prescription_content .wrapper_1 h4{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: #000;
   margin-bottom: 10px;/* 
@@ -1584,6 +1600,11 @@ a {
   color: white;
   text-align: center;
   padding: 20px 20px 5px 20px;
+  border-radius: 5px;
+}
+
+.prescription_content .wrapper_2 .wrapper_2_up:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prescription_content .wrapper_2 .wrapper_2_down {
@@ -1592,6 +1613,11 @@ a {
   margin-top: 5px;
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+}
+
+.prescription_content .wrapper_2 .wrapper_2_down:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prescription_content .wrapper_2 .wrapper_2_down p {
@@ -1602,7 +1628,7 @@ a {
 
 .dir_icon {
   font-size: xx-large;
-  padding: 10px 0px;
+  padding: 2px 0px;
 }
 
 .general_radius {
@@ -1644,9 +1670,14 @@ a {
   background-color: white;
   color: #000;
   padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 20px 0px 0px 20px;
+  /* border-radius: 20px 0px 0px 20px; */
+  border-radius: 5px;
   text-align: center;
+  border: 1px solid #ccc;
+}
+
+.prescription_content .wrapper_3_left .text_div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prescription_content .wrapper_3_left .text_div p{
@@ -1673,8 +1704,12 @@ a {
   height: 100%;
   width: 100%;
   min-height: 300px;
+  /* border-radius: 0px 20px 20px 0px; */
+  border-radius: 5px;
+}
+
+.prescription_content .wrapper_3_right img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 0px 20px 20px 0px;
 }
 
 .background_center {
@@ -1689,6 +1724,7 @@ a {
   padding: 30px 5px 5px 5px; 
   color: #000;
   line-height: 3rem;
+  font-family: 'Lato', sans-serif;
 }
 @media screen and (max-width: 414px) {
   .more_info_div h3 {
@@ -1702,11 +1738,16 @@ a {
   color: #000;
 }
 
+.learn_more_button:hover {
+  color: #ff9901;
+}
+
 .learn_more_button p{
   text-align: center;
-  padding: 15px 20px;
+  padding: 5px 20px;
   font-size: 26px;
-  font-weight: 600;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Protect Your Eyesight */
@@ -1718,11 +1759,12 @@ a {
   color: #000;
   background-color: #cdd8db;
   border-radius: 20px;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #ccc;
   padding: 10px 5px;
   text-align: center;
   overflow: hidden; 
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif; }
   .protect_content .middle{
     width: 105%;
     margin-left: -10px;
@@ -1738,6 +1780,10 @@ a {
     overflow:hidden;
   }
 
+  .protect_content:hover {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  }
+
   .protect_content p{
     padding: 10px 15px;
     font-size: 20px;
@@ -1748,13 +1794,19 @@ a {
     justify-content: center;
     color: #000;
     border: 2px solid black; 
-    height: 70px;
-    width: 230px;
+    height: 60px;
+    width: 200px;
     margin: auto;
+    font-family: 'Lato', sans-serif;
   }
   
+  .protect_button:hover {
+    color: #FF9901;
+    border: 2px solid #FF9901; 
+  }
+
   .protect_button p{
-    padding: 15px 0px;
+    padding: 9px 0px;
     font-size: 22px;
   }
 
@@ -1765,6 +1817,7 @@ a {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.07);
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .banner_title_bg h1 {
@@ -1813,8 +1866,13 @@ a {
 }
 
 .banner_bottom_area .btn-learn {
-  border-color: #ccc;
-  color: #ccc;
+  border-color: white;
+  color: white;
+}
+
+.banner_bottom_area .btn-learn:hover {
+  border-color: #FF9901;
+  color: #FF9901;
 }
 
 @media screen and (max-width: 414px) {
